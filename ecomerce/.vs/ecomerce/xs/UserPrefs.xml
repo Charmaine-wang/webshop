@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{E9F0AE54-325D-4489-AF5B-33E7957DCF4C}|Default">
+  <MonoDevelop.Ide.ItemProperties.ecomerce PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ecomerce/appsettings.json">
+    <Files>
+      <File FileName="ecomerce/Program.cs" Line="19" Column="1" />
+      <File FileName="ecomerce/Models/Products.cs" Line="14" Column="47" />
+      <File FileName="ecomerce/Services/ProductServices.cs" Line="10" Column="34" />
+      <File FileName="ecomerce/Startup.cs" Line="3" Column="19" />
+      <File FileName="ecomerce/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="ecomerce/Repositories/ProductsRepository.cs" Line="24" Column="51" />
+      <File FileName="ecomerce/appsettings.json" Line="3" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
