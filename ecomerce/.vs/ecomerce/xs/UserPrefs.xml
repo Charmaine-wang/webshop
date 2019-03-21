@@ -1,15 +1,30 @@
 ﻿<Properties StartupConfiguration="{E9F0AE54-325D-4489-AF5B-33E7957DCF4C}|Default">
   <MonoDevelop.Ide.ItemProperties.ecomerce PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ecomerce/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ecomerce/Controllers/CartController.cs">
     <Files>
-      <File FileName="ecomerce/Program.cs" Line="19" Column="1" />
-      <File FileName="ecomerce/Models/Products.cs" Line="14" Column="47" />
-      <File FileName="ecomerce/Services/ProductServices.cs" Line="10" Column="34" />
-      <File FileName="ecomerce/Startup.cs" Line="3" Column="19" />
-      <File FileName="ecomerce/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="ecomerce/Repositories/ProductsRepository.cs" Line="24" Column="51" />
-      <File FileName="ecomerce/appsettings.json" Line="3" Column="42" />
+      <File FileName="../../../../Api/Api/Controllers/Controllers.cs" Line="1" Column="1" />
+      <File FileName="../../../../Api/Api/Models/News.cs" Line="1" Column="1" />
+      <File FileName="../../../../Api/Api/Repositories/NewsRepository.cs" Line="36" Column="16" />
+      <File FileName="../../../../Api/Api/Repositories/INewsRepository.cs" Line="12" Column="2" />
+      <File FileName="../../../../Api/NewsRepository.UnitTests/Class1.cs" Line="1" Column="1" />
+      <File FileName="../../../../Api/NewsRepository.UnitTests/Services/NewsServiceTests.cs" Line="68" Column="19" />
+      <File FileName="../../../../Api/Api/Services/NewsServices.cs" Line="8" Column="30" />
+      <File FileName="../../../../Api/Api/Program.cs" Line="15" Column="28" />
+      <File FileName="ecomerce/Controllers/CartController.cs" Line="26" Column="47" />
+      <File FileName="ecomerce/Models/CartItems.cs" Line="15" Column="1" />
+      <File FileName="ecomerce/Repositories/CartItemsRepository.cs" Line="41" Column="65" />
+      <File FileName="ecomerce/Services/CartItemsServices.cs" Line="29" Column="34" />
+      <File FileName="ecomerce/Models/Products.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Api" expanded="True">
+            <Node name="Api.UnitTests" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

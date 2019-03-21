@@ -11,23 +11,23 @@ namespace ecomerce.Controllers
 {
 
     [Route("api/[controller]")]
-    public class CartController : Controller
+    public class CartItemsController : Controller
     {
         private readonly string connectionString;
-        private readonly CartServices cartService;
+        private readonly CartItemsServices cartItemsService;
 
-        public CartController(IConfiguration configuration)
+        public CartItemsController(IConfiguration configuration)
         {
             this.connectionString = configuration.GetConnectionString("ConnectionString");
-            this.cartService = new CartServices(new CartRepository(connectionString));
+            this.cartItemsService = new CartItemsServices(new CartItemsRepository(connectionString));
         }
 
         [HttpGet]
-        [ProducesResponseType(typeof(List<Cart>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(List<CartItems>), StatusCodes.Status200OK)]
         public IActionResult Get()
 
         {
-            return Ok(this.cartService.Get());
+            return Ok(this.cartItemsService.Get());
         }
 
     }

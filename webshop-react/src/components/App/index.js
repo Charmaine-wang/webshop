@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Products from "../Products"
+import Products from "../ProductContainer"
+import CartItems from "../CartItemsContainer"
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="start-container">
         <Products />
       </div>
     );

@@ -17,28 +17,28 @@ namespace ecomerce
     //    bool Delete(string userid, int productid);
     //}
 
-    public class CartRepository
+    public class CartItemsRepository
     {
         private readonly string connectionString;
 
-        public CartRepository(string connectionstring)
+        public CartItemsRepository(string connectionstring)
         {
             this.connectionString = connectionstring;
         }
 
-        public List<Cart> Get()
+        public List<CartItems> Get()
         {
             using (var connection = new SQLiteConnection(this.connectionString))
             {
-                return connection.Query<Cart>("SELECT * FROM cart_customer").ToList();
+                return connection.Query<CartItems>("SELECT * FROM cart_items").ToList();
             }
         }
 
-        public Cart Get(int id)
+        public CartItems Get(int id)
         {
             using (var connection = new SQLiteConnection(this.connectionString))
             {
-                return connection.QuerySingleOrDefault<Cart>("SELECT * FROM cart_customer WHERE Id = @Id", new { id });
+                return connection.QuerySingleOrDefault<CartItems>("SELECT * FROM cart_items WHERE Id = @Id", new { id });
             }
 
         }
