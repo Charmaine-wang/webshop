@@ -30,5 +30,21 @@ namespace ecomerce.Controllers
             return Ok(this.cartItemsService.Get());
         }
 
+
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult Post([FromBody]CartItems cartItems)
+        {
+            var result = this.cartItemsService.Add(cartItems);
+
+            if (!result)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
+
     }
 }

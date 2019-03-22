@@ -42,5 +42,13 @@ namespace ecomerce
             }
 
         }
+
+        public void Add(CartItems cartItems)
+        {
+            using (var connection = new SQLiteConnection(this.connectionString))
+            {
+                connection.Execute("INSERT INTO cart_items (id, cart_id, product_id, product_quantity) VALUES (@id, @cart_id, @product_id, @product_quantity)", cartItems);
+            }
+    }
     }
 }

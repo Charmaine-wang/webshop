@@ -8,7 +8,8 @@ const ProductItem = (props) => {
     
       {/*item is the key you find in ProductList, product_name */ }
       <h1>{ props.item.product_name }</h1>
-      <img className="product-img" src={props.item.product_img} />
+      <img className="product-img" src={props.item.product_img} alt="" />
+      
     </div>
   )
   }

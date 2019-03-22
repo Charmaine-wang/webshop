@@ -28,5 +28,17 @@ namespace ecomerce.Services
             }
             return this.cartItemsRepository.Get(id);
         }
+
+        public bool Add(CartItems cartItems)
+        {
+            if (cartItems != null)
+            {
+                this.cartItemsRepository.Add(cartItems);
+                return true;
+            }
+
+            return false;
+        }
+
     }
 }

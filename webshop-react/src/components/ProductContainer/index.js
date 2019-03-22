@@ -10,6 +10,8 @@ class ProductContainer extends Component {
           products: []
         }
       }
+
+
           componentDidMount() {
             this.fetchAdvice();
           }
@@ -30,7 +32,8 @@ class ProductContainer extends Component {
     return (
       <div className="Product-container-view">
       {/** this.state.products = products is this.state that returns products: (returns your fetch api(product database)) */}
-        <ProductsList productData={this.state.products} />
+        <ProductsList productData={this.state.products}  />
+
       </div>
     );
   }
