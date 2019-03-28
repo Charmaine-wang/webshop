@@ -1,0 +1,16 @@
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.pdb
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.IntegrationTests.deps.json
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.IntegrationTests.runtimeconfig.json
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.IntegrationTests.runtimeconfig.dev.json
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.IntegrationTests.dll
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.IntegrationTests.pdb
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.dll
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/bin/Debug/netcoreapp2.0/ecommerce.pdb
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/obj/Debug/netcoreapp2.0/ecommerce.IntegrationTests.csproj.CoreCompileInputs.cache
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/obj/Debug/netcoreapp2.0/ecommerce.IntegrationTests.AssemblyInfoInputs.cache
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/obj/Debug/netcoreapp2.0/ecommerce.IntegrationTests.AssemblyInfo.cs
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/obj/Debug/netcoreapp2.0/ecommerce.IntegrationTests.csproj.CopyComplete
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/obj/Debug/netcoreapp2.0/ecommerce.IntegrationTests.dll
+/Users/charmainewang/Documents/c#/webshop/ecommerce/ecommerce.IntegrationTests/obj/Debug/netcoreapp2.0/ecommerce.IntegrationTests.pdb

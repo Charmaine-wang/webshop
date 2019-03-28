@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 
 class Button extends Component {
     constructor() {
@@ -6,27 +6,18 @@ class Button extends Component {
         this.state = {
             count: 0
         }
-        this.handleClick = this.handleClick.bind(this)
+        // this.handleClick = this.handleClick.bind(this)
     }
-    
-    handleClick() {
-        this.setState(prevState => {
-            return{
-                count: prevState.count + 1
-            }
-        })
-    }
-    
-    
+        
+
     render() {
         return (
             <div>
                 <h1>{this.state.count}</h1>
-                <button onClick={this.handleClick}>Change!</button>
+                <button onClick={this.handleClick}>Add item</button>
             </div>
         )
     }
 }
-
 export default Button
 

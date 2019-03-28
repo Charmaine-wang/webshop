@@ -4,7 +4,7 @@ import CartItems  from '../CartItems';
 
 
 const ProductsList = (props) => {
-    console.log(props.productData)
+    
   return (
     <div className="ProductList">
     {/*productData is the key in the container */}

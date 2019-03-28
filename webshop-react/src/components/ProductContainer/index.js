@@ -18,7 +18,7 @@ class ProductContainer extends Component {
     
       fetchAdvice = () => {
         //here you fetch the api (table product.db)
-        axios.get(`/api/product`)
+        axios.get(`http://localhost:5000/api/product`)
           .then(response => {
           this.setState({
             products: response.data

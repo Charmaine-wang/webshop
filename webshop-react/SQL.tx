@@ -1,0 +1,5 @@
+HÄR FÅNGAR DU KUNDKORGEN
+Select cart_items.id, cart_guid, product_id, product_qty, product_name,
+product_img, product_description from cart_items LEFT JOIN products ON 
+cart_items.product_id = products.id WHERE 
+cart_guid = '4a37987d-016e-4700-a5a9-a136d58c2122'

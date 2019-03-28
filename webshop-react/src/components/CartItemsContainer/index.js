@@ -16,7 +16,7 @@ class CartItemsContainer extends Component {
     
       fetchAdvice = () => {
         //here you fetch the api (table product.db)
-        axios.get(`/api/cartitems`)
+        axios.get(`http://localhost:5000/api/cartitems`)
           .then(response => {
           this.setState({
             products: response.data
@@ -26,9 +26,9 @@ class CartItemsContainer extends Component {
 
   render() {
     //here you can console.log to see data
- 
+
     return (
-      <div className="Product-container-view">
+      <div className="cart-container-view">
       {/** this.state.products = products is this.state that returns products: (returns your fetch api(product database)) */}
         <CartItemsList productData={this.state.products} />
       </div>
