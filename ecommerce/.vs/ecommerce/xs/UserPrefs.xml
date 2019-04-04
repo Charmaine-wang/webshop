@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="{309A1501-7B30-429E-80AF-DCD3335F219E}|Default">
   <MonoDevelop.Ide.ItemProperties.ecommerce PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ecommerce/Controllers/OrderItemsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ecommerce/Services/CustomerServices.cs">
     <Files>
-      <File FileName="ecommerce/Services/OrderItemsServices.cs" Line="21" Column="49" />
-      <File FileName="ecommerce/Repositories/OrderItemsRepository.cs" Line="25" Column="308" />
-      <File FileName="ecommerce/Controllers/OrderItemsController.cs" Line="1" Column="1" />
-      <File FileName="ecommerce/Models/OrderItems.cs" Line="22" Column="1" />
-      <File FileName="ecommerce/Controllers/ProductController.cs" Line="1" Column="1" />
+      <File FileName="ecommerce/Models/FinalOrder.cs" Line="15" Column="1" />
+      <File FileName="ecommerce/Services/FinalOrderServices.cs" Line="15" Column="10" />
+      <File FileName="ecommerce/Controllers/FinalOrderController.cs" Line="24" Column="124" />
+      <File FileName="ecommerce/Controllers/CartItemsController.cs" Line="32" Column="1" />
+      <File FileName="ecommerce/Controllers/CustomerController.cs" Line="47" Column="1" />
+      <File FileName="ecommerce/Controllers/CartIdController.cs" Line="1" Column="1" />
+      <File FileName="ecommerce/Controllers/CartController.cs" Line="28" Column="1" />
+      <File FileName="ecommerce/Repositories/CartRepository.cs" Line="1" Column="1" />
+      <File FileName="ecommerce/Repositories/CustomerRepository.cs" Line="30" Column="1" />
+      <File FileName="ecommerce/Repositories/CartItemsRepository.cs" Line="28" Column="36" />
+      <File FileName="ecommerce/Models/CartItems.cs" Line="1" Column="1" />
+      <File FileName="ecommerce/Services/CartItemsServices.cs" Line="29" Column="10" />
+      <File FileName="ecommerce/Services/CartService.cs" Line="19" Column="1" />
+      <File FileName="ecommerce/Services/CustomerServices.cs" Line="42" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="ecommerce" expanded="True">
-            <Node name="ecommerce.IntegrationTests" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -5,11 +5,15 @@ import CartItems from "../CartItemsContainer"
 
 
 class App extends Component {
+      
+
   render() {
     return (
       <div className="start-container">
         <Products />
-        <CartItems  />
+        <CartItems handleClick={this.handleClick} />
+
+       {/* style={{display: this.state.isClicked ? "red" : this.state.color}} */}
       </div>
     );
   }

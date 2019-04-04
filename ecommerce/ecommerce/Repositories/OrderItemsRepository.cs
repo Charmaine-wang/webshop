@@ -22,7 +22,15 @@ namespace ecommerce.Repositories
         {
             using (var connection = new SQLiteConnection(this.connectionString))
             {
-                return connection.Query<OrderItems>("SELECT cart_guid, product_id, product_name, SUM(product_qty) AS qty, product_price, SUM(product_price) AS price FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id WHERE cart_guid = @guid GROUP BY product_id", new { guid }).ToList();
+                return connection.Query<OrderItems>("SELECT cart_guid, product_id, product_name, product_description, SUM(product_qty) AS qty, product_price, SUM(product_price) AS price FROM cart_items LEFT JOIN products ON cart_items.product_id = products.id WHERE cart_guid = @guid GROUP BY product_id", new { guid }).ToList();
+            }
+        }
+
+        public void Add(OrderItems orderItems)
+        {
+            using (var connection = new SQLiteConnection(this.connectionString))
+            {
+                connection.Execute("INSERT INTO order_items (cart_guid) VALUES (@cart_guid)", orderItems);
             }
         }
 

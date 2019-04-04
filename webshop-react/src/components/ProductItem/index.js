@@ -39,6 +39,7 @@ class ProductItem extends Component {
         let guid = e.target[2].value;
         localStorage.setItem("my-guid", guid)
       }
+      
      let guid = localStorage.getItem("my-guid")
       const send = {cart_guid: guid, product_id: id, product_qty: qty }
       console.log(send);
@@ -76,3 +77,4 @@ class ProductItem extends Component {
   }
   }
 export default ProductItem
+

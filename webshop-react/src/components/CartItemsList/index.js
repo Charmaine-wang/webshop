@@ -3,16 +3,16 @@ import "./CartItemsList.css"
 import CartItems  from '../CartItems';
 
 
-const ProductsList = (props) => {
+const CartList = (props) => {
     
   return (
-    <div className="ProductList">
+    <div className="cart-list-container">
     {/*productData is the key in the container */}
     {/** item={item} will return all objects in the array */}
-      {props.productData.map((item, i) => <CartItems key={i} item={item} />) }
+      {props.cartData.map((item, i) => <CartItems key={i} item={item} />) }
     </div>
   )
 }
 
 
-export default ProductsList
+export default CartList

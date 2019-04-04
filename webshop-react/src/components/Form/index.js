@@ -9,7 +9,7 @@ const Form = (props) => {
                     <label for="username">Name</label>
                     <input type="username" name="username" placeholder="Username" />
                 </div>
-
+                
                 <div>
                 <label for="name">Adress</label>
                 <input type="name" name="name" placeholder="Name" />

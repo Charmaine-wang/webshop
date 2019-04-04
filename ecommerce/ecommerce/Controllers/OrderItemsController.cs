@@ -30,7 +30,21 @@ namespace ecommerce.Controllers
                 return Ok(this.orderItemsService.Get(guid));
             }
 
-   
+
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult Post([FromBody]OrderItems orderItems)
+        {
+            var result = this.orderItemsService.Add(orderItems);
+
+            if (!result)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
+
     }
+}
 

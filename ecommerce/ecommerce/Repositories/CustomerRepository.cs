@@ -31,7 +31,7 @@ namespace ecommerce.Repositories
         {
             using (var connection = new SQLiteConnection(this.connectionString))
             {
-                return connection.QuerySingleOrDefault<Customer>("SELECT * FROM customer WHERE Id = @guid", new { guid });
+                return connection.QuerySingleOrDefault<Customer>("SELECT * FROM customer WHERE customer_guid = @guid", new { guid });
             }
 
         }
@@ -40,7 +40,7 @@ namespace ecommerce.Repositories
         {
             using (var connection = new SQLiteConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO customer (id, customer_name, customer_adress, date) VALUES (@id, @customer_name, @customer_adress, @date)", customer);
+                connection.Execute("INSERT INTO customer (customer_guid, customer_name, customer_adress) VALUES (@customer_guid, @customer_name, @customer_adress)", customer);
             }
         }
     }

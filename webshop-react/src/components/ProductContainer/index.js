@@ -10,8 +10,6 @@ class ProductContainer extends Component {
           products: []
         }
       }
-
-
           componentDidMount() {
             this.fetchAdvice();
           }

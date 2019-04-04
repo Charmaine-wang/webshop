@@ -24,8 +24,15 @@ namespace ecommerce.Services
         }
 
 
-
-
+        public bool Add(OrderItems orderItems)
+        {
+            if (orderItems != null)
+            {
+                this.orderItemsRepository.Add(orderItems);
+                return true;
+            }
+            return false;
+        }
 
     }
 }

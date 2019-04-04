@@ -27,4 +27,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\ecom.db" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Repositories\FinalOrderRepository.cs" />
+  </ItemGroup>
 </Project>

@@ -23,6 +23,7 @@ namespace ecommerce.Controllers
             this.customerService = new CustomerServices(new CustomerRepository(connectionString));
         }
 
+
         [HttpGet]
         [ProducesResponseType(typeof(List<Customer>), StatusCodes.Status200OK)]
         public IActionResult Get()
@@ -41,6 +42,8 @@ namespace ecommerce.Controllers
             var resault = this.customerService.Get(guid);
             return Ok(resault);
         }
+
+
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
