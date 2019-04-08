@@ -5,6 +5,7 @@ namespace ecommerce.Models
 
     public class OrderItems
     {
+        public string order_guid { get; set; }
         public string cart_guid { get; set; }
         public int product_id { get; set; }
         public int qty { get; set; }

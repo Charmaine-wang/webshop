@@ -22,7 +22,15 @@ namespace ecommerce.Controllers
                 this.orderItemsService = new OrderItemsServices(new OrderItemsRepository(connectionString));
             }
 
-            [HttpGet("{guid}")]
+            [HttpGet]
+            [ProducesResponseType(typeof(List<OrderItems>), StatusCodes.Status200OK)]
+            public IActionResult Get()
+
+            {
+                return Ok(this.orderItemsService.Get());
+            }
+
+        [HttpGet("{guid}")]
             [ProducesResponseType(typeof(List<OrderItems>), StatusCodes.Status200OK)]
             public IActionResult Get(string guid)
 

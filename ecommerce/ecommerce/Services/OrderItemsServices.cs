@@ -18,6 +18,12 @@ namespace ecommerce.Services
 
         }
 
+        public List<OrderItems> Get()
+        {
+            return this.orderItemsRepository.Get();
+        }
+
+
         public List<OrderItems> Get(string guid)
         {
             return this.orderItemsRepository.Get(guid);

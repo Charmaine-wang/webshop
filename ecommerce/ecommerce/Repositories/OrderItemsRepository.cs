@@ -17,6 +17,15 @@ namespace ecommerce.Repositories
             this.connectionString = connectionstring;
         }
 
+        public List<OrderItems> Get()
+        {
+            using (var connection = new SQLiteConnection(this.connectionString))
+            {
+                return connection.Query<OrderItems>("SELECT * FROM order_items").ToList();
+            }
+        }
+
+
 
         public List<OrderItems> Get(string guid)
         {
@@ -30,7 +39,7 @@ namespace ecommerce.Repositories
         {
             using (var connection = new SQLiteConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO order_items (cart_guid) VALUES (@cart_guid)", orderItems);
+                connection.Execute("INSERT INTO order_items (order_guid) VALUES (@order_guid)", orderItems);
             }
         }
 
